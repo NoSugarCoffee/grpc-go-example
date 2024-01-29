@@ -14,8 +14,7 @@ The following environment variables can be used to configure the application:
 ## Set environment variables
 ```shell
 export GRPC_ENDPOINT=localhost:50051
-export KEY_ID=my-key-id
-export SECRET_KEY=my-secret-key
+export HMAC_SECRETS=1:123456
 ```
 
 ## Generate proto code
